@@ -1,0 +1,22 @@
+Sınav: 
+
+Hesap Makinesi Getir
+
+Çıkabilecek Sorular: 
+
+Küme İşlemleri, Bulanık Küme İşlemleri, Kesişim Birleşim Fark
+
+Bulanıık İlişkiler, R ilişkisi, S ilişkisi, Max-Min'e göre birleşimi 
+Bulanık Mantık 4 temel Kavram 
+
+
+
+Durulama Metodu 1 taralı alan verilip durulama metodlarına göre çıktı değerleri hesaplaması 
+
+çalışan kurallar verilip hangi taralı alan verilir çıktısı ne olur 
+
+fcl kod olarak gelmez, üyelik fonksiyonunun fcl karşılığı veya fcl verilip üyelik fonksiyonu gelebilir 
+
+bulanık mantık vs yapay sinir ağları gelebilir
+
+yapay sinir ağları 7. hafta dersi terimlerle ilgili soru gelebilir.

@@ -1,0 +1,44 @@
+1. soru İlk 7 haftalık kısımdan 1 soru YSA'dan bağımsız olarak.
+2. soru Bulanık ve YSA karışımı bir soru arasındaki avantajlar bir senaryonun hangisine uygun olduğu ile ilgili X X
+3. soru Back propagation 1 ileri besleme 1 geri yayılım yeni ağırlık değerinin bulunması, momentum back propagation X
+4. öğrenme türleri, öğrenme türlerinin ne olduğu ve her bir öğrenme türüne karşılık bir ağ örnek verebilmesi lazım. X
+5. soru K-fold Roc Analysis bunlar gibi terimler karşımıza çıkabilir X
+
+yorum sorusu olacak, kod gelmez YSA ağırlıklı. 1.5 soru bulanık mantık
+
+Öğrenme Türleri:
+- Destekli Öğrenme
+- Desteksiz Öğrenme
+Bunlarla ilgili ağlara bakmak lazım
+Hochsmit, elman ağları vs.20:21 2.01.2024
+
+
+Destekli Öğrenme:
+
+Destekli öğrenme makineye girdilerin ve çıktıların verilip eğitildiği öğrenme türüdür. Bu türe Elman ağı karşılık gelmektedir.
+Verimiz girdiler ve çıktılar ile eğitilir, gerçek çıktı ile üretilen çıktı karşılaştırılır ve ağ eğitilir ağırlıklar güncellenir.
+
+Desteksiz Öğrenme:
+
+Makineye sadece girdi değerleri verilir, çıktı yoktur. Bu genellikle doğru cevabın olmadığı veya gerekmediği durumlarda kullanılır. Makine girdiler arasındaki ilişkilere göre girdileri ayırt etmeye ve kümelemeye çalışır. Girdiler ile bir yapı veya bir desen oluşturmaya çalışır. Girdileri öğrenip sınıflandırmaya çalışır. Hopfield ağı bu öğrenme türüne karşılık gelmektedir.
+
+Verisetinde çıktı yoktur model gruplandırma yapmaya çalışır. Bu öğrenme kümeleme işlemlerinde başarılıdır.
+
+Takviyeli Öğrenme:
+
+Bir öğretici ile çalışır ağın ürettiği çıktıya doğru ya da yanlış şeklinde sinyal gönderilir bu sinyale göre ağırlıklar değişir.
+
+Sistemde bir öğretici vardır, fakat öğretici girdilerin çıktı değerlerini vermek yerine makinenin girdilere karşılık verdiği çıktı değerlerinin doğru olup olmadığını veya yakın bir cevap ya da uzak bir cevap olduğunun sinyalini verir. LQV buna örnektir.
+
+LQV2 -> sınır değerlerindeki yanlış sınıflandırmayı önlemek için geliştirilmiştir. Öğrenme sırasında iki vektörün ağırlığını değiştirir.
+Cezalı LVQ -> Sürekli kazanan vektörleri cezalandırır. Hep aynı vektörün ağırlık kazanmasını engellemek için geliştirilmiştir.
+LVQ-X -> öğrenme hızını arttırmak için çoğunlukla iki ağırlık vektörünün ağırlıkları değiştirilir.
+
+
+K-Fold validation:
+
+Bir veri setini K parçaya eşit bir şekilde ayır diyelim 5 parça, sırayla 1. parçayı test diğer parçaları eğitim verisi olarak kullanır ve öğrenir, sonra 2. parçayı test diğer parçaları eğitim diyerek bütün veri parçalarını günün sonunda hem teste hem de eğitime sokar. Böylelikle verinin bir bölümünü eğitimden mahrum bırakarak hatalı veya daha az doğru sonuç bulmayı engeller.
+
+Roc Analizi:
+
+Sınıflandırma yaparken modelin uygun bir karar eşiğini belirlemek için kullanılır. Modelin özgüllüğü ve duyarlılığı ve performansını belirlemede kullanılır
