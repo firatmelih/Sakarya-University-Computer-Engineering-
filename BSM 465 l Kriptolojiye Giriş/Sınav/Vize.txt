@@ -1,0 +1,15 @@
+Simetrik vs. 
+
+6. Ünite Sayılar Teorisi Öklit Algoritması, Genişletilmiş Öklit Algoritması, Çarpmaya Göre Tersi Aritmetik Ters Alma Öeler Fonksiyonu
+
+Affin Algoritması En önemlisi XXXXXXXXXXXXXXXXXXXXXXXX
+Hill var ama Hill zorlayıcı XXXXXXXXXXXXXXXXXXXX
+Brut Force, Security Life Time Tablosu önemli XXXXXXXXXXXXXXXXXXXXXXX
+Servisler Neye Hizmet ediyoruz tanımı XXXXXXXXXXXXXXXXXXXXXXX
+Symmetric Crypto'nun çalışma mantığını bil XXXXXXXXXXXXXXXXXXXX	
+Crypto Analysis ile ilgili kırmızı kutucuktakileri bil XXXXXXXXXXXXXXXXXXXXXXXXXX
+Aralarında asallık, öklit algoritması ile ters bulma bunları hesaplıyo olmam gerek XXXXXXXXXXXXXXXXXXXXXX  
+Stream'de Rastgele True Psuedo Run Time Pad, Tablo, Lineer Feedback - inputlar verildiğinde nasıl output elde ediliyor nasıl çalıştığını bil xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+DES AES Genel çalışma mantığını bil, Shift Row, vs gibi adımları bil
+Son haftadan da Blok şifrelemenin modları, elektronik kod bloğun zaafiyetleri, chainde yapı nasıl avantaj dezavantaj

@@ -1,0 +1,67 @@
+Vize'den Sonra İşlenenler:
+
+6. Ünite Intro Public Key:
+
+a- Basic Transport Protocol **** X
+b- Kısa Dönem Orta Bit Seviyeleri 
+c- Belki Öklit algoritması EULER FERMANT EBOB X
+
+7. Ünite RSA Kripto Sistemi:
+RSA bilinecek. Nasıl çalışır Anahtar üretimi ve hızlandırma için squre multiplier var. X
+
+8. Ünite Discrete Logarithm:
+Diffie-helman Alice Bob anahtar değişimi X
+El Gamal X
+bu algoritmaları bil
+
+9. Ünite Eliptik Curve 
+Nokta çoğullama
+Addition ve Doubling (Formülü hoca verir) Hesaplama yapılacak, Sınavdan önce hesap kağıt kalem işlemleri yapmak lazım 1P ile 2P 4P vs üretmece X
+Eliptic Curve Diffie-Hellman birleşimi X
+Double and Add Algorithm X
+
+10. Dijital İmza:
+
+Genel yapısı ve RSA ile uygulaması
+
+11. Hash:
+Hash'e neden ihtiyaç duyuluyor ne işe yarıyor hash, hash'in temel kullanımı, özellikleri
+padding şema olabilir
+
+
+6-
+a- Basic Key Transportation Protocol:
+
+Bob Alice'e simetrik anahtarını şifrelemesi için public key veriyor 
+Alice bu public key ile simetrik keyi şifreliyor ve Bob'a yolluyor 
+Bob private keyiyle bu şifreli metni decrypt ediyor 
+Bob böylelikle Alice'in simetrik anahtarını güvenli olarak elde etmiş oluyor
+Bu noktadan sonra Bob ve Alice örn. AES algoritması ile bu anahtarı kullanarak mesajlaşıyorlar
+
+burada Bob'un public key vermesi ve Alice'in bu public key ile rastgele anahtarını şifrelemesi ve Bob'un private key ile bu şifreyi çözmesi ASYMETRIC Key Exchange oluyor çünkü, Alice rastgele anahtarını şifreledikten sonra kendi dahi açamaz, fakat Bob private key'e sahip olduğu için açabilir.
+
+İki tarafın da rastgele anahtara sahip olduğu andan itibaren yaptıkları mesajlaşma simetriktir.
+
+b- Kısa Dönem Orta Dönem Uzun Dönem Bit Seviyeleri:
+	Simetrik	ECC	RSA
+Kısa	64		128	700
+Orta	80		160	1024
+Uzun	128		256	3072
+
+c- Zaman kalırsa bak.
+
+7- RSA
+Nasıl Çalışır:
+A* Anahtar Belirleme
+1* p ve q belirle
+2* N = p * q
+3* fi(N) = p-1*q-1
+4* e'yi seç e 1'den fi(N)'e kadar ve fi(N) ile aralarında asal
+5* d'yi bul d mod(fi(N))'de e'nin tersidir.
+B* Kullanım
+metin^e mod (N) şifreleme = şifre
+şifre^d mod(N) çözme = metin
+
+Square and Multipy bak anlamadım XXXXXXXXXXXXXXXXXXXX
+
+8- X
