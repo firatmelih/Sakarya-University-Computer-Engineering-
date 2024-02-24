@@ -1,0 +1,52 @@
+SMTP: Email hizmetlerinde yaygın olarak kullanılır RFC 821 standardıdır TCP bağlantısı kurar. 25 nolu portu kullanır. bağlantıdan sonra basit request respond mekanizması çalışır. Mailler POP veya IMAP kullanan bir email istemcisi ile sunucudan alınabilir.
+
+Çalışması şu şekildedir:
+
+Terminaldeki kullanıcı -> User Agent'a maili gönderir -> Gönderilecek mailler sıraya alınır -> kullanıcının message transfer agenti serverin message transfer agentine TCP 25 ile bağlantı kurar. MTA alıcının mailboxuna maili gönderir -> terminaldeki kullanıcı mesaja ulaşır
+
+SMTP Senaryoları:
+
+Eğer iki kullanıcı da aynı sistemdeyse iki UA ile mailleşebilirler.
+
+Eğer farklı sistemdelerse iki UA ve bir server MTA ve bir kullanıcı MTA gerekir.
+
+Mail göndericisi mail sunucusuna LAN veya WAN ile bağlıysa iki UA dört MTA
+
+Günümüzde kullanılan ise:
+Hem gönderen hem alıcı bir LAN veya WAN ile bağlıysa iki adet UA 4 adet MTA ve 2 adet MAA ya ihtiyaç duyar
+
+UA->MTA C->MTA S-> MTA C -> MTA S -> MAA S -> MAA C -> UA
+
+
+UA: User Agent:
+Bir mesajı daha kolay almak veya göndermek için servis sağlamak.
+Mesaj oluşturur, okur, cevaplar, iletir, posta kutusuna taşır
+Ajan örnekleri: mail pine ve elm
+
+
+SNMP:
+Simple Network Management Protocol
+Günümüz ağ topolojileri büyük ve karmaşık olduğundan ağ yönetimi gerek. Ağ yönetimi devamlılık performans yönetimi ve maliyet düşümü
+SNMP avantajları:
+- basit dizayn kolay entegrasyon
+- kullanım alanı geniş
+- güncelleme kolay
+- adaptasyon kolay
+- standardı var
+- genişletileilir taşınabilir
+Dezavantaj:
+- udp kullandığından güvenliği düşük (son sürüm hariç)
+
+HTTP:
+
+IPSec:
+
+TLS: 
+TLS Handshake:
+1. Key exchange
+İstemci sunucuya clienthello mesajı yollar, sunucu clienthello mesajını işler ve şifreleme parametrelerini belirler, daha sonra istemciye serverhello yanıtı verir. burada anahtar ve şifre seçenekleri belirlenir.
+2. server parameters:
+server clienta encryptedextensions clienthello yanıtlarını içerir
+certificate request sertifika içeren mesaj
+3. authentication
+server 3 doğrulama mesajı gönderir 1. sertifika 2. sertifika doğrulama 3. bitti

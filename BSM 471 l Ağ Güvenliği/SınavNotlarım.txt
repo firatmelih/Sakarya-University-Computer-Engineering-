@@ -1,0 +1,5 @@
+Ağ Dinleme Araçları (Sniffing):
+Ağ üzerinde trafiği sezebilen ve değiştirebilen donanım ve yazılım araçlarıdır. 
+Aktif olarak Atak yapar
+Pasif olarak Sezme veya Dinleme yapar.
+Wireshark uygulaması ünlüdür.

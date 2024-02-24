@@ -1,0 +1,39 @@
+Katman 2 Saldırıları
+
+ARP Spoofing
+MAC
+VLAN
+STP Manipülasyonu
+DHCP Spoofing
+
+DHCP Rogü
+
+Katman 3 Saldırıları
+
+IP Spoofing
+DDoS
+ICMP
+Yönlendirme Protokolleri Saldırıları
+
+AAA
+
+IP Ethernet
+
+45 Dakika Sürecek,
+
+Test ve Klasik, Klasik 30 puan vs.
+
+Ağ Güvenliğinin Temelleri ile ilgili sorular
+
+AAA bu proses nasıl gerçekleşir domain yapısı içerisinde nasıl gerçekleştireleceği ile ilgili teorik olarak sorular gelir
+
+Pen Test -> Hedef Sisteme Saldırma Yöntemlerinde kullandığımız komutlar test olarak çıkabilir.
+
+Katman 2 ve Katman 3'teki protokollerin başlık yapıları, hangi başlık alanında hangi alanın sömürülebileceği protokol 2 zaafiyeti protokol 3 zaafiyeti nedir
+
+IPSec ve VPN ile alakali kriptografi ile alakalı simetrik asimetrik
+
+saldırı senaryoları 10 tane video paylaştı hoca onlar
+
+Klasik Açıklama İsteyecek
+
